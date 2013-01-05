@@ -1,5 +1,5 @@
 require "radmin/version"
 
 module Radmin
-  # Your code goes here...
+  autoload :Resource, "radmin/helpers/resource"
 end
